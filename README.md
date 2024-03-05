@@ -1,2 +1,2 @@
 # EDA-by-Ashish
-Author ASHISH WASNIK
+Author-ASHISH WASNIK
