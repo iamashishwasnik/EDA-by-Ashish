@@ -1,5 +1,5 @@
-Author-ASHISH WASNIK
-Black friday sales prediction
+# Author-ASHISH WASNIK
+# Black friday sales prediction
 ![0_-e6G_N1MSr4CbEkK (1)](https://github.com/iamashishwasnik/EDA-of-Black-friday-sales-prediction-by-Ashish/assets/147370129/36a308de-984f-4896-965f-1e52e158aeda)
 
 Title: Black Friday Sales Analysis and Prediction
