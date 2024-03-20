@@ -20,16 +20,19 @@ The dataset, sourced from a Black Friday sales database, comprises various attri
 
 ### Model Building and Evaluation:
 
-* Linear Regression Model: The linear regression model achieved an R-squared score of approximately 0.18, indicating that around 18% of the variance in the purchase amounts can be explained by the features included in the model. However, the mean squared error (MSE) and mean absolute error (MAE) are relatively high, suggesting that the model's predictions deviate significantly from the actual purchase amounts.
+* #### Linear Regression Model:
+  The linear regression model achieved an R-squared score of approximately 0.18, indicating that around 18% of the variance in the purchase amounts can be explained by the features included in the model. However, the mean squared error (MSE) and mean absolute error (MAE) are relatively high, suggesting that the model's predictions deviate significantly from the actual purchase amounts.
 
-* Decision Tree Regressor Model: The decision tree regressor model performed better than linear regression, achieving an R-squared score of about 0.75. This indicates that approximately 75% of the variance in purchase amounts is explained by the features in the model. The MSE and MAE are lower compared to linear regression, indicating better performance in predicting purchase amounts.
+* #### Decision Tree Regressor Model:
+  The decision tree regressor model performed better than linear regression, achieving an R-squared score of about 0.75. This indicates that approximately 75% of the variance in purchase amounts is explained by the features in the model. The MSE and MAE are lower compared to linear regression, indicating better performance in predicting purchase amounts.
 
-* Random Forest Regressor Model: The random forest regressor model further improved the predictive performance with an R-squared score of approximately 0.61. This suggests that the model accounts for approximately 61% of the variance in purchase amounts. The MSE and MAE are also lower compared to the linear regression model, indicating better predictive accuracy.
+* #### Random Forest Regressor Model:
+  The random forest regressor model further improved the predictive performance with an R-squared score of approximately 0.61. This suggests that the model accounts for approximately 61% of the variance in purchase amounts. The MSE and MAE are also lower compared to the linear regression model, indicating better predictive accuracy.
 
-* K-Nearest Neighbors Regressor Model: The K-nearest neighbors regressor model achieved an R-squared score of around 0.66, indicating that approximately 66% of the variance in purchase amounts is explained by the features in the model. The MSE and MAE are lower compared to linear regression, suggesting improved predictive accuracy.
+* #### K-Nearest Neighbors Regressor Model:
+  The K-nearest neighbors regressor model achieved an R-squared score of around 0.66, indicating that approximately 66% of the variance in purchase amounts is explained by the features in the model. The MSE and MAE are lower compared to linear regression, suggesting improved predictive accuracy.
 
 Overall, the decision tree, random forest, and K-nearest neighbors regressor models outperform the linear regression model in predicting purchase amounts during Black Friday sales. Among these, the K-nearest neighbors regressor model demonstrates the highest predictive performance based on the R-squared score and error metrics. Therefore, it may be the most suitable model for predicting purchase amounts in similar sales events.
-
 
 
 
